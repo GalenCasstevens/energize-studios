@@ -162,6 +162,7 @@ a:hover {
 		margin-bottom: 25px;
 		width: 100%;
 		filter: drop-shadow(7px 7px 5px #000);
+		padding-right: 0px;
 	}
 
 	#about-header,
