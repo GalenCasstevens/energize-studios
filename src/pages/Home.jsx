@@ -14,7 +14,7 @@ function Home() {
 	if (albums && albums !== null) {
 		return (
 			<>
-				<Row className="album-list-row">
+				<Row>
 					{albums.map((album) => (
 						<Col lg={4}>
 							<Link to={`albums/${album._id}`}>
