@@ -27,14 +27,14 @@ function Album() {
 					</p>
 				</Row>
 				<Row id="album-pic-description">
-					<Col lg={4}>
+					<Col lg={4} sm={12}>
 						<img
 							id="album-content-img"
 							src={`../img/${album.imageLink}`}
 							alt=""
 						/>
 					</Col>
-					<Col lg={8}>
+					<Col lg={8} sm={12}>
 						<p id="album-description" style={{ whiteSpace: 'pre-line' }}>
 							{album.description}
 						</p>

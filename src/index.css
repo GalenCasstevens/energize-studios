@@ -63,6 +63,7 @@ body {
 }
 
 #album-artist-name {
+	font-size: 31px;
 	line-height: 36px;
 }
 
@@ -184,5 +185,19 @@ a:hover {
 		display: flex;
 		width: 13%;
 		float: right;
+	}
+
+	#album-artist-name {
+		font-size: 0.85em;
+		line-height: 32px;
+	}
+
+	#album-pic-description {
+		margin-top: 0px;
+	}
+
+	#album-description {
+		margin-top: 25px;
+		margin-left: 0px;
 	}
 }
