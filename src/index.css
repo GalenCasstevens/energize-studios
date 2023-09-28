@@ -135,6 +135,30 @@ a:hover {
 	text-decoration: underline;
 }
 
+@media only screen and (max-width: 810px) {
+	#logo {
+		font-size: 2.5em;
+		display: inline;
+	}
+
+	#navigation {
+		margin-top: 20px;
+	}
+
+	#content {
+		margin-top: 20px;
+	}
+
+	#album-pic-description {
+		margin-top: 0px;
+	}
+
+	#album-description {
+		margin-top: 25px;
+		margin-left: 0px;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	#logo {
 		font-size: 1.15em;
