@@ -60,21 +60,33 @@ function Sources() {
 					on Unsplash.
 				</p>
 				<p>
-					<a href="https://unsplash.com/photos/D17j_v2EDb0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+					<a
+						href="https://unsplash.com/photos/D17j_v2EDb0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+						target="_blank"
+					>
 						Photo
 					</a>{' '}
 					by{' '}
-					<a href="https://unsplash.com/@mrsrachelmcdermott?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+					<a
+						href="https://unsplash.com/@mrsrachelmcdermott?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+						target="_blank"
+					>
 						Rachel McDermott
 					</a>{' '}
 					on Unsplash.
 				</p>
 				<p>
-					<a href="https://unsplash.com/photos/3eC5n6gHwe8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+					<a
+						href="https://unsplash.com/photos/3eC5n6gHwe8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+						target="_blank"
+					>
 						Photo
 					</a>{' '}
 					by{' '}
-					<a href="https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+					<a
+						href="https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+						target="_blank"
+					>
 						Jonathan Borba
 					</a>{' '}
 					on Unsplash.
