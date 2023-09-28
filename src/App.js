@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Home from './pages/Home';
+import Hamburger from './components/Hamburger';
 import Album from './pages/Album';
 import About from './pages/About';
 import Process from './pages/Process';
@@ -16,6 +17,7 @@ function App() {
 		<>
 			<Router>
 				<Header />
+				<Hamburger />
 				<Row>
 					<Col md={4}>
 						<Menu />

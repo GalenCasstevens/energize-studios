@@ -1,8 +1,12 @@
+import Row from 'react-bootstrap/Row';
+
 function Contact() {
 	return (
 		<>
-			<p id="contact-header">Reach Out to Us.</p>
-			<div id="contact-content">
+			<Row>
+				<p id="contact-header">Reach Out to Us.</p>
+			</Row>
+			<Row id="contact-content">
 				<p>
 					Instagram
 					<br />
@@ -28,7 +32,7 @@ function Contact() {
 					<br />
 					energizestudios@gmail.com
 				</p>
-			</div>
+			</Row>
 		</>
 	);
 }

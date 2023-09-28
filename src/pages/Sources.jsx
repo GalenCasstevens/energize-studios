@@ -1,8 +1,12 @@
+import Row from 'react-bootstrap/Row';
+
 function Sources() {
 	return (
 		<>
-			<p id="sources-header">Sources</p>
-			<div id="sources-content">
+			<Row>
+				<p id="sources-header">Sources</p>
+			</Row>
+			<Row id="sources-content">
 				<p>
 					<a
 						href="https://flickr.com/photos/lschlagenhauf/38494602082/"
@@ -75,7 +79,7 @@ function Sources() {
 					</a>{' '}
 					on Unsplash.
 				</p>
-			</div>
+			</Row>
 		</>
 	);
 }

@@ -18,16 +18,12 @@ body {
 
 #logo {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 80px;
+	font-size: 3em;
 	color: #000;
 }
 
-.fa-bolt-lightning {
-	/* color: yellow; */
-}
-
 #navigation {
-	margin-top: 75px;
+	margin-top: 86px;
 	list-style-type: none;
 	padding-left: 0;
 	line-height: 37px;
@@ -41,8 +37,12 @@ body {
 	color: #000;
 }
 
+.hamburger {
+	display: none;
+}
+
 #content {
-	margin-top: 74px;
+	margin-top: 85px;
 }
 
 .album-list-item {
@@ -57,9 +57,9 @@ body {
 }
 
 #about-content {
-	font-size: 0.8em;
-	margin-top: 20px;
+	font-size: 0.75em;
 	line-height: 24px;
+	margin-top: 10px;
 }
 
 #album-artist-name {
@@ -86,8 +86,8 @@ body {
 }
 
 #contact-content {
-	margin-top: 30px;
-	font-size: 0.8em;
+	margin-top: 10px;
+	font-size: 0.75em;
 	line-height: 25px;
 }
 
@@ -96,8 +96,8 @@ body {
 }
 
 #portfolio-content {
-	margin-top: 30px;
-	font-size: 0.8em;
+	margin-top: 10px;
+	font-size: 0.75em;
 }
 
 #portfolio-content p {
@@ -110,7 +110,7 @@ body {
 
 #process-content {
 	font-size: 0.8em;
-	margin-top: 20px;
+	margin-top: 10px;
 	line-height: 24px;
 }
 
@@ -119,8 +119,8 @@ body {
 }
 
 #sources-content {
-	font-size: 0.8em;
-	margin-top: 20px;
+	font-size: 0.75em;
+	margin-top: 10px;
 	line-height: 24px;
 }
 
@@ -132,4 +132,57 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+	#logo {
+		font-size: 1.25em;
+		display: inline;
+	}
+
+	body {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#navigation {
+		margin-top: 10px;
+	}
+
+	#navigation a {
+		font-size: 0.9em;
+	}
+
+	#content {
+		margin-top: 10px;
+	}
+
+	.album-list-item {
+		margin-bottom: 25px;
+		width: 100%;
+		filter: drop-shadow(7px 7px 5px #000);
+	}
+
+	#about-header,
+	#process-header,
+	#portfolio-header,
+	#contact-header,
+	#sources-header {
+		font-size: 0.9em;
+	}
+
+	ul.closed {
+		display: none;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		right: 0px;
+		top: 50px;
+	}
+
+	.hamburger {
+		display: flex;
+		width: 13%;
+		float: right;
+	}
 }

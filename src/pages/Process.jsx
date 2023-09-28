@@ -1,8 +1,12 @@
+import Row from 'react-bootstrap/Row';
+
 function Process() {
 	return (
 		<>
-			<p id="process-header">Trust the Process.</p>
-			<div id="process-content">
+			<Row>
+				<p id="process-header">Trust the Process.</p>
+			</Row>
+			<Row id="process-content">
 				<p>
 					Suspendisse non finibus nisl. Mauris ornare efficitur odio, sed
 					efficitur mauris elementum ac. In a auctor dolor.
@@ -17,7 +21,7 @@ function Process() {
 					Suspendisse non finibus nisl. Mauris ornare efficitur odio, sed
 					efficitur mauris elementum ac. In a auctor dolor.
 				</p>
-			</div>
+			</Row>
 		</>
 	);
 }
