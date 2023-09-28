@@ -9,7 +9,6 @@ export const toggleHamburgerSlice = createSlice({
 	initialState,
 	reducers: {
 		toggleHamburger: (state) => {
-			console.log(state.toggled);
 			if (state.toggled) state.toggled = false;
 			else state.toggled = true;
 		},
