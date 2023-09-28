@@ -14,7 +14,7 @@ function Sources() {
 					<a href="https://flickr.com/photos/lschlagenhauf/" target="_blank">
 						Lukas Schlagenhauf
 					</a>{' '}
-					is licensed under <br />
+					is licensed under{' '}
 					<a
 						href="https://creativecommons.org/licenses/by-nd/2.0/"
 						target="_blank"
@@ -22,7 +22,6 @@ function Sources() {
 						CC BY-ND 2.0
 					</a>
 					.
-					<br />
 				</p>
 				<p>
 					<a
