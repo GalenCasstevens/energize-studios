@@ -19,10 +19,10 @@ function App() {
 				<Header />
 				<Hamburger />
 				<Row>
-					<Col md={4}>
+					<Col lg={4} md={12}>
 						<Menu />
 					</Col>
-					<Col id="content" md={8}>
+					<Col id="content" lg={8} md={12}>
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="/albums/:id" element={<Album />} />

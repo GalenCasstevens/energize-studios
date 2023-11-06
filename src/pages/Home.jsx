@@ -16,7 +16,7 @@ function Home() {
 			<>
 				<Row>
 					{albums.map((album) => (
-						<Col lg={4}>
+						<Col lg={4} md={6}>
 							<Link to={`albums/${album._id}`}>
 								<img
 									className="album-list-item"
