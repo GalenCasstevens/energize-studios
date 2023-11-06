@@ -16,24 +16,26 @@ function App() {
 	return (
 		<>
 			<Router>
-				<Header />
-				<Hamburger />
-				<Row>
-					<Col lg={4} md={12}>
-						<Menu />
-					</Col>
-					<Col id="content" lg={8} md={12}>
-						<Routes>
-							<Route path="/" element={<Home />} />
-							<Route path="/albums/:id" element={<Album />} />
-							<Route path="/about" element={<About />} />
-							<Route path="/process" element={<Process />} />
-							<Route path="/portfolio" element={<Portfolio />} />
-							<Route path="/contact" element={<Contact />} />
-							<Route path="/sources" element={<Sources />} />
-						</Routes>
-					</Col>
-				</Row>
+				<div id="container">
+					<Header />
+					<Hamburger />
+					<Row>
+						<Col lg={4} md={12}>
+							<Menu />
+						</Col>
+						<Col id="content" lg={8} md={12}>
+							<Routes>
+								<Route path="/" element={<Home />} />
+								<Route path="/albums/:id" element={<Album />} />
+								<Route path="/about" element={<About />} />
+								<Route path="/process" element={<Process />} />
+								<Route path="/portfolio" element={<Portfolio />} />
+								<Route path="/contact" element={<Contact />} />
+								<Route path="/sources" element={<Sources />} />
+							</Routes>
+						</Col>
+					</Row>
+				</div>
 			</Router>
 		</>
 	);

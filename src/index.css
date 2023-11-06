@@ -7,9 +7,12 @@
 body {
 	font-family: 'OCR A Extended';
 	font-size: 30px;
-	padding-top: 45px;
-	padding-left: 100px;
-	padding-right: 75px;
+}
+
+#container {
+	margin-top: 45px;
+	margin-left: 100px;
+	margin-right: 75px;
 }
 
 #logo-link {
@@ -142,10 +145,10 @@ a:hover {
 		text-align: center;
 	}
 
-	body {
-		padding-top: 25px;
-		padding-left: 45px;
-		padding-right: 45px;
+	#container {
+		margin-top: 25px;
+		margin-left: 45px;
+		margin-right: 45px;
 	}
 
 	#navigation {
@@ -172,10 +175,10 @@ a:hover {
 		display: inline;
 	}
 
-	body {
-		padding-top: 15px;
-		padding-left: 15px;
-		padding-right: 15px;
+	#container {
+		margin-top: 15px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 	#navigation {
@@ -193,6 +196,11 @@ a:hover {
 		margin-top: 10px;
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+
+	.col-lg-4.col-md-6 {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	.album-list-item {
@@ -221,8 +229,9 @@ a:hover {
 
 	.hamburger {
 		display: flex;
-		width: 11.5%;
+		width: 10%;
 		float: right;
+		margin-top: 5px;
 	}
 
 	#album-artist-name {
